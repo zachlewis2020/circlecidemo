@@ -1,0 +1,34 @@
+{
+  "ModelName": "demo2",
+  "ModelMetadata": {
+    "Author": "",
+    "DateCreated": "Sep 28, 2020, 12:27 PM",
+    "DateLastModified": "Sep 28, 2020, 12:28 PM",
+    "Description": "",
+    "Version": "1.0"
+  },
+  "DataModel": [
+    {
+      "TableName": "d12",
+      "KeyAttributes": {
+        "PartitionKey": {
+          "AttributeName": "aaaaa",
+          "AttributeType": "S"
+        }
+      },
+      "NonKeyAttributes": [
+        {
+          "AttributeName": "file",
+          "AttributeType": "B"
+        },
+        {
+          "AttributeName": "owner",
+          "AttributeType": "S"
+        }
+      ],
+      "DataAccess": {
+        "MySql": {}
+      }
+    }
+  ]
+}
